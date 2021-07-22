@@ -1,0 +1,48 @@
+#about-container {
+  margin: 0 auto;
+  color: #222222;
+  max-width: 1200px;
+}
+
+#about-title {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.image-container > img {
+  width: 200px;
+}
+
+.image-container {
+  overflow: hidden;
+  /* width: 200px; */
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+#team-member-name {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+#members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.gh-li-links-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gh-li-links-container > a > svg {
+  margin: 0;
+}
+
+.team-member {
+  margin: 12px;
+}

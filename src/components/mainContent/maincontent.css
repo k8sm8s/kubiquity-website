@@ -1,0 +1,24 @@
+.main-content {
+  background: #3b4f79;
+  color: #f8f8f8;
+}
+
+.feature-container > h1 {
+  margin: 0 0 0 30px;
+}
+
+.feature-item {
+  margin: 0 0 30px 30px;
+}
+
+.persistent-logging {
+  margin: 0 0 30px 30px;
+}
+
+.searchable-logs {
+  margin: 0 0 30px 30px;
+}
+
+.metrics {
+  margin: 0 0 30px 30px;
+}

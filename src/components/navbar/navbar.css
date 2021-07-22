@@ -1,0 +1,11 @@
+.navbar {
+  padding: 36px;
+  background: #3b4f79;
+}
+
+.navbar-tag {
+  padding: 36px;
+  color: #f8f8f8;
+  font-weight: bold;
+  margin: 25px 25px 25px 25px;
+}

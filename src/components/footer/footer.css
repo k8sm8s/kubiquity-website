@@ -1,0 +1,28 @@
+footer {
+  padding: 36px 48px 24px;
+  background: #3b4f79;
+  color: #f8f8f8;
+}
+
+svg {
+  margin-right: 24px;
+}
+
+#footer-header {
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+footer > div {
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+
+#footer-links {
+  margin: 24px 0 18px;
+}
+
+#license {
+  font-size: 12px;
+}
