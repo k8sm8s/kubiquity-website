@@ -1,11 +1,25 @@
 .navbar {
-  padding: 36px;
+  /* padding: 36px; */
   background: #3b4f79;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
 }
 
 .navbar-tag {
-  padding: 36px;
+  /* padding: 36px; */
   color: #f8f8f8;
   font-weight: bold;
-  margin: 25px 25px 25px 25px;
+  /* margin: 25px 25px 25px 25px; */
+}
+
+.navbar > * {
+  display: flex;
+}
+
+#navbar-left > *,
+#navbar-right > * {
+  margin: 8px;
+  text-decoration: none;
+  font-weight: 600;
 }

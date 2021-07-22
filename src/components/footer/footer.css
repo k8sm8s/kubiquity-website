@@ -1,7 +1,12 @@
 footer {
-  padding: 36px 48px 24px;
+  /* padding: 36px 48px 24px; */
   background: #3b4f79;
   color: #f8f8f8;
+  /* display: flex;
+  justify-content: center;
+  width: 800px; */
+  display: flex;
+  justify-content: center;
 }
 
 svg {
@@ -25,4 +30,9 @@ footer > div {
 
 #license {
   font-size: 12px;
+}
+
+#footer-container {
+  padding: 24px;
+  width: 800px;
 }

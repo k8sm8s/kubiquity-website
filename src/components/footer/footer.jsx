@@ -4,6 +4,7 @@ import "./footer.css";
 
 const Footer = () => (
   <footer>
+    <div id="footer-container">
     <div id="footer-header">Stay in Touch with Kubiquity</div>
     <div>
       We appreciate any feedback on Kubiquity, so feel free to watch and star
@@ -49,6 +50,7 @@ const Footer = () => (
       </a>
     </nav>
     <div id="license">MIT Licensed | Copyright @ 2021 Kubiquity. All Rights Reserved.</div>
+    </div>
   </footer>
 );
 

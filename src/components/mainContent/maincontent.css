@@ -1,24 +1,148 @@
 .main-content {
   background: #3b4f79;
   color: #f8f8f8;
+  padding-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.feature-container > h1 {
-  margin: 0 0 0 30px;
+.feature-container > h2 {
+  text-align: center;
+  font-size: xxx-large;
 }
 
-.feature-item {
+/* .feature-container {
+  text-align: center;
+} */
+
+/* #multi-platform {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 40%;
+  height: auto;
+} */
+
+/* #persistent-logging {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 40%;
+  height: auto;
+} */
+
+/* #searchable-logs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 40%;
+  height: auto;
+} */
+
+/* #metrics {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 40%;
+  height: auto;
+} */
+
+.feature-item-image > * {
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px; */
+  max-width: 600px;
+  max-height: 400px;
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* .feature-item {
+  text-align: center;
   margin: 0 0 30px 30px;
 }
 
 .persistent-logging {
+  text-align: center;
   margin: 0 0 30px 30px;
 }
 
 .searchable-logs {
+  text-align: center;
   margin: 0 0 30px 30px;
 }
 
 .metrics {
+  text-align: center;
   margin: 0 0 30px 30px;
+} */
+
+.linkbutton {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 6px;
+  width: 300px;
+}
+
+.linkbutton:hover {
+  background-color: rgb(46, 122, 49);
+  color: white;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.feature-item {
+  display: flex;
+  justify-content: center;
+  /* width: 500px;
+  flex-direction: column; */
+  margin: 0 60px;
+}
+
+.feature-item-text {
+  margin: 42px;
+}
+
+.feature-item-text > h3 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  max-width: 300px;
+  line-height: 42px;
+}
+
+.feature-item-text > p {
+  max-width: 240px;
+  font-size: 18px;
+}
+
+.feature-item {
+  margin: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.linkbutton :first-child {
+  font-size: 22px;
+  font-weight: 600;
 }

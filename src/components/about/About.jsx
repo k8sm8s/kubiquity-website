@@ -10,26 +10,26 @@ const About = () => (
     <div id="members">
       <Member
         name="David Anderson"
-        gitHub=""
-        linkedIn=""
+        gitHub="https://github.com/dlande000"
+        linkedIn="https://linkedin.com/in/dlande000"
         imgSrc="https://avatars.githubusercontent.com/u/44009893?v=4"
       />
       <Member
         name="Robert Hernandez"
-        gitHub=""
-        linkedIn=""
+        gitHub="https://github.com/dlande000"
+        linkedIn="https://www.linkedin.com/in/robert-hernandez-879108211/"
         imgSrc="https://media-exp3.licdn.com/dms/image/C4E03AQGCphgDXazCJw/profile-displayphoto-shrink_200_200/0/1626903244187?e=1632355200&v=beta&t=SEZ_0SSSRvAaQWz5hOF8ZpwWJO-GmmyGfbVaoPVnxIo"
       />
       <Member
         name="David Zhang"
-        gitHub=""
-        linkedIn=""
+        gitHub="https://github.com/davidzhangnyc"
+        linkedIn="https://www.linkedin.com/in/davidnyc/"
         imgSrc="https://avatars.githubusercontent.com/u/11681692?v=4"
       />
       <Member
         name="Jeffrey Zheng"
-        gitHub=""
-        linkedIn=""
+        gitHub="https://github.com/jefzheng"
+        linkedIn="https://linkedin.com/in/jefzheng"
         imgSrc="https://avatars.githubusercontent.com/u/39392074?v=4"
       />
     </div>

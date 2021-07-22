@@ -1,26 +1,16 @@
 .splash__content {
-  padding: 36px;
-  background: #3b4f79;
+  /* padding: 36px; */
+  /* background: #3b4f79; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  flex-direction: column;
+  color: white;
 }
 
-#download {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
-#github {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+.splash {
+  background-image: url("https://64.media.tumblr.com/b8e64a425c8210c0c524806687aa5fb6/tumblr_nmqb7pIpJH1rxp34uo1_500.gif");
+  background-size: cover;
+  margin: 0 0 6px;
 }
